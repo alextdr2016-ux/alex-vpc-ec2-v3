@@ -2,11 +2,11 @@ name: Alex workflow CI/CD Pipeline AWS
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - "main.tf"
+      - "variables.tf"
+      - "terraform.tfvars"
 
 env:
   AWS_REGION: eu-north-1
