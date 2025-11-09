@@ -49,7 +49,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "Amazon liniux 2023"
   type        = string
-  default     = "ami-07fb0a5bf9ae299a4" # Example AMI ID, replace with a valid one for your region
+  default     = "ami-07fb0a5bf9ae299a4" # Example AMI ID, replace with a valid one for your region if needed
 }
 
 variable "security_group_name" {
